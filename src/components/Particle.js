@@ -53,3 +53,4 @@ function Particle() {
 }
 
 export default Particle;
+// tsParticles loaded
