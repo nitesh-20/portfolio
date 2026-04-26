@@ -142,3 +142,4 @@ function Techstack() {
 }
 
 export default Techstack;
+// External tech stack
