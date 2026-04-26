@@ -55,3 +55,4 @@ function Home2() {
   );
 }
 export default Home2;
+// End of Home2 module
