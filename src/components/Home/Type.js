@@ -20,3 +20,4 @@ function Type() {
 }
 
 export default Type;
+// Typewriter loop setting
