@@ -60,3 +60,4 @@ function Projects() {
 }
 
 export default Projects;
+// Projects section end
