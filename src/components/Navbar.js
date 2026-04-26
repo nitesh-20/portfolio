@@ -120,3 +120,4 @@ function NavBar() {
 }
 
 export default NavBar;
+// Expanded nav states
