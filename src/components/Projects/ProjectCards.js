@@ -38,3 +38,4 @@ function ProjectCards(props) {
   );
 }
 export default ProjectCards;
+// Props for card layout
