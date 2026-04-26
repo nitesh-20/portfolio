@@ -2,9 +2,6 @@
   Nitesh Kumar Sahu's Portfolio ✨<br/>
   <a href="https://nitesh.vercel.app/" target="_blank">nitesh.vercel.app</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
 
 <br/>
 
