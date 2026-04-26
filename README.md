@@ -1,6 +1,6 @@
 <h2 align="center">
   Nitesh Kumar Sahu's Portfolio ✨<br/>
-  <a href="https://nitesh.vercel.app/" target="_blank">nitesh.vercel.app</a>
+  <a href="https://nitesh-portfolio-two.vercel.app/" target="_blank">nitesh-portfolio-two.vercel.app</a>
 </h2>
 
 <br/>
