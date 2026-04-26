@@ -45,3 +45,4 @@ function AboutCard() {
 }
 
 export default AboutCard;
+// Card styles applied
