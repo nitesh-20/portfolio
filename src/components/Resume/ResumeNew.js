@@ -54,3 +54,4 @@ function ResumeNew() {
 }
 
 export default ResumeNew;
+// Resume loaded here
