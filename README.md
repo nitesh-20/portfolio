@@ -1,5 +1,5 @@
 <h2 align="center">
-  Nitesh Kumar Sahu's Portfolio ✨<br/>
+  Nitesh Sahu's Portfolio ✨<br/>
   <a href="https://nitesh-portfolio-two.vercel.app/" target="_blank">nitesh-portfolio-two.vercel.app</a>
 </h2>
 
