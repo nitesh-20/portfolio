@@ -13,35 +13,28 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a Computer Science undergraduate focused on full-stack and backend systems.
-              I have hands-on experience in React, REST APIs, and AI-powered applications.
+              I am a <b className="purple">Computer Science undergraduate</b> and <b className="purple">GDG Lead at SSIPMT Raipur</b>.
+              I am highly passionate about building scalable web applications and AI-powered solutions.
               <br />
               <br />
-              I’m proficient in
+              I have developed proficiency in core development languages and frameworks:
               <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, SQL, Node.js, and React.js{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
+                <b className="purple"> JavaScript, C++, SQL, React.js, and Node.js</b>
+              </i>.
               <br />
               <br />
-              My key areas of interest include developing
+              My professional interest lies in building real-world projects across
               <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, AI-Powered Systems,{" "}
-                </b>
-              </i>
-              and integrating robust modern architectures.
+                <b className="purple"> Agriculture, Legal Tech, and FinTech domains</b>
+              </i>,
+              with a strong interest in backend engineering, cloud technologies, and intelligent systems.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              Whenever possible, I love applying my skills in
               <i>
-                <b className="purple">React.js</b>.
+                <b className="purple"> RAG (Retrieval-Augmented Generation), LLMs, and Gemini</b>
               </i>
+              to create smart, user-centric solutions.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

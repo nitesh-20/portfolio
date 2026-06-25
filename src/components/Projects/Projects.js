@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import vaaniAi from "../../Assets/Projects/vaani_ai_preview.png";
+import rioPreview from "../../Assets/Projects/rio_preview.png";
 
 function Projects() {
   return (
@@ -18,16 +16,16 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are the main projects from my portfolio.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={rioPreview}
               isBlog={false}
-              title="Agrisahayak – AI Agriculture Assistant"
-              description="Finalist project at Google Cloud Agentic AI Day 2025. Built AI workflows to deliver real-time crop guidance, weather alerts, and market insights. Designed scalable, cloud-based recommendation systems focused on farmer usability."
-              ghLink="https://github.com/nitesh-20"
+              title="Regulatory Intelligence OS (RIO)"
+              description="AI-powered multi-agent compliance platform that continuously monitors regulatory updates and circulars. Implemented Retrieval-Augmented Generation (RAG) and semantic search using LangChain and Google Gemini to automate compliance tracking, policy risk analysis, and report generation."
+              ghLink="https://github.com/nitesh-20/Regulatory-Intelligence-OS-RIO-"
               demoLink=""
             />
           </Col>
@@ -36,8 +34,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="LawGPT – AI Legal Assistant"
-              description="Developed an AI-powered system for legal document analysis and question answering. Implemented Retrieval-Augmented Generation (RAG) with vector search to reduce hallucinations. Enabled semantic search across multi-page legal PDFs."
+              title="LawGPT — AI Legal Assistant"
+              description="Developed an AI-powered legal document analysis and question-answering platform. Implemented Retrieval-Augmented Generation (RAG) with vector search to enable semantic search and contextual querying across legal PDFs, improving workflow accuracy."
               ghLink="https://github.com/nitesh-20"
               demoLink="https://law-gpt-1c925.firebaseapp.com"
             />
@@ -45,12 +43,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={vaaniAi}
               isBlog={false}
-              title="Airline-Backend-System"
-              description="Designed and implemented a scalable backend system for airline and flight management. Modeled relational data using MySQL for Airlines, Flights, Airports, and Cities. Built RESTful APIs using Node.js and Express.js following MVC architecture."
+              title="Vaani.AI — Voice AI for Merchant Intelligence"
+              description="Built a voice-first AI assistant helping merchants understand settlements, deductions, and transaction insights. Developed a transaction-aware RAG system integrating Gemini workflows for financial query resolution. Finalist project at Paytm Hackathon 2026."
               ghLink="https://github.com/nitesh-20"
-              demoLink=""              
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Agrisahayak — AI Agriculture Assistant"
+              description="Built an AI-powered platform providing crop guidance, weather alerts, and market intelligence. Integrated cloud-based recommendation systems to assist farmers in decision-making. Finalist project at Google Cloud Agentic AI Day 2025."
+              ghLink="https://github.com/nitesh-20"
+              demoLink=""
             />
           </Col>
         </Row>
@@ -60,4 +69,3 @@ function Projects() {
 }
 
 export default Projects;
-// Projects section end

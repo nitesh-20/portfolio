@@ -4,12 +4,8 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Techstack from "../About/Techstack";
-import Github from "../About/Github";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -30,7 +26,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> NITESH KUMAR SAHU</strong>
+                <strong className="main-name"> NITESH SAHU</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -71,7 +67,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/nitesh-sahu/"
+                  href="https://www.linkedin.com/in/niteshsahu20/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
